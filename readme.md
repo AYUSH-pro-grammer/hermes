@@ -54,8 +54,8 @@ OLED and XIAO RP2040 are connected via headers, whereas MPU6050 and passives wer
 
 Additionally, I have added silkscreen labels in order to simplify the assembly process.
 
-![PCB](images/pcb.png)
-![PCB](images/3d.png)
+![PCB](image/pcb.png)
+![PCB](image/3d.png)
 
 
 # Bill of Materials (BOM)
