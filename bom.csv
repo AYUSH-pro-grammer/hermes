@@ -1,0 +1,9 @@
+Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
+Seeed XIAO RP2040,Microcontroller,1,,https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html,Seeed Studio
+MPU6050,Accelerometer & Gyroscope Sensor,1,4.00,https://robu.in/product/mpu-6050-qfn-24-3-axis-gyro-accelerometer-ic/,Robu.in
+0.96-inch OLED Display (SSD1306 I2C),Display for sensor data,1,,https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-blue/,Robu.in
+4.7kΩ Resistor,I2C SDA pull-up resistor,1,,,Generic
+4.7kΩ Resistor,I2C SCL pull-up resistor,1,,,Generic
+0.1µF Capacitor,MPU6050 decoupling capacitor,2,,,Generic
+1µF Capacitor,Power filtering capacitor,1,,,Generic
+Custom PCB,Main circuit board,1,11.00,https://lioncircuits.com/,LionCircuits
