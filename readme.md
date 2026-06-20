@@ -37,6 +37,8 @@ Also, the MPU6050 employs decoupling capacitors in order to stabilize the voltag
 
 ![Schematic](image/schematic.png)
 
+
+
 ## PCB Design
 
 The board was created in KiCad.
@@ -55,17 +57,37 @@ Additionally, I have added silkscreen labels in order to simplify the assembly p
 ![PCB](images/pcb.png)
 ![PCB](images/3d.png)
 
-## Bill of Materials
 
-| Part                | Function                       | Quantity |
-| -------------------- | ------------------------------ | -------- |
-| XIAO RP2040         | Microcontroller                | 1        |
-| MPU6050             | Accelerometer & Gyroscope      | 1        |
-| 0.96" OLED Display  | Sensor display                 | 1        |
-| 4.7kΩ Resistor      | I²C Pull-up                    | 2        |
-| 0.1µF Capacitor     | Decoupling capacitor           | 2        |
-| 1µF Capacitor       | Filtering capacitor            | 1        |
-| Custom PCB          | Board                          | 1        |
+# Bill of Materials (BOM)
+
+| Part                             | Function                                                                    | Quantity | Supplier     |
+| -------------------------------- | --------------------------------------------------------------------------- | -------- | ------------ |
+| Seeed XIAO RP2040                | Main microcontroller for processing sensor data and controlling the display | 1        | Seeed Studio |
+| MPU6050                          | 3-axis accelerometer and 3-axis gyroscope sensor for motion detection       | 1        | Robu.in      |
+| 0.96" OLED Display (SSD1306 I²C) | Displays real-time acceleration and rotation data                           | 1        | Robu.in      |
+| 4.7kΩ Resistor                   | I²C SDA pull-up resistor                                                    | 1        | Generic      |
+| 4.7kΩ Resistor                   | I²C SCL pull-up resistor                                                    | 1        | Generic      |
+| 0.1µF Capacitor                  | Decoupling capacitor for MPU6050 power stabilization                        | 2        | Generic      |
+| 1µF Capacitor                    | Power filtering capacitor                                                   | 1        | Generic      |
+| Custom PCB                       | Main circuit board for all components                                       | 1        | LionCircuits |
+
+## Purchase Links
+
+| Component          | Link                                                                              |
+| ------------------ | --------------------------------------------------------------------------------- |
+| Seeed XIAO RP2040  | https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html                          |
+| MPU6050            | https://robu.in/product/mpu-6050-qfn-24-3-axis-gyro-accelerometer-ic/             |
+| 0.96" OLED Display | https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-blue/ |
+| PCB Manufacturing  | https://lioncircuits.com/                                                         |
+
+## Component Summary
+
+The Hermes Motion Meter is built around the Seeed XIAO RP2040 microcontroller. Motion sensing is provided by the MPU6050 IMU, which combines a 3-axis accelerometer and a 3-axis gyroscope. A 0.96-inch SSD1306 OLED display connected through the I²C bus is used to display sensor readings in real time.
+
+The I²C communication lines (SDA and SCL) use 4.7kΩ pull-up resistors. Two 0.1µF decoupling capacitors and one 1µF filtering capacitor are included to ensure stable operation of the MPU6050 and reduce power supply noise. All components are mounted on a custom-designed PCB manufactured through LionCircuits.
+
+
+
 
 ## Assembly
 
