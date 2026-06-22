@@ -75,17 +75,17 @@ Additionally, I have added silkscreen labels in order to simplify the assembly p
 
 | Component                        | Purchase Link                                                                                                                                                       |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Seeed XIAO RP2040                | [Seeed Studio Product Page](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html?utm_source=chatgpt.com)                                                        |
-| Seeed XIAO RP2040 (India)        | [Robu.in Product Page](https://robu.in/product/seeed-studio-xiao-rp2040-v1-0/?utm_source=chatgpt.com)                                                               |
-| MPU6050 Sensor Module            | [Robu.in MPU6050 Module](https://robu.in/product/mpu-6050-gyro-sensor-2-accelerometer/?utm_source=chatgpt.com)                                                      |
-| MPU6050 IC                       | [Robu.in MPU6050 IC](https://robu.in/product/mpu-6050-qfn-24-3-axis-gyro-accelerometer-ic/?utm_source=chatgpt.com)                                                  |
-| 0.96" OLED Display (SSD1306 I²C) | [Robu.in OLED Display (Blue)](https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-blue/?utm_source=chatgpt.com)                             |
-| 0.96" OLED Display (SSD1306 I²C) | [Robu.in OLED Display (White)](https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-white/?utm_source=chatgpt.com)                           |
-| 0.96" OLED Display (SSD1306 I²C) | [Robu.in OLED Display (128×64 SSD1306)](https://robu.in/product/0-96-inch-128x64-ssd1306-iic-interface-4-pin-oled-module-blue-color-screen/?utm_source=chatgpt.com) |
-| 4.7kΩ Resistor                   | [Robu.in Resistors Collection](https://robu.in/product-category/passive-components/resistors/?utm_source=chatgpt.com)                                               |
-| 0.1µF Ceramic Capacitor          | [Robu.in Capacitors Collection](https://robu.in/product-category/passive-components/capacitors/?utm_source=chatgpt.com)                                             |
-| 1µF Capacitor                    | [Robu.in Capacitors Collection](https://robu.in/product-category/passive-components/capacitors/?utm_source=chatgpt.com)                                             |
-| PCB Manufacturing                | [LionCircuits](https://lioncircuits.com/?utm_source=chatgpt.com)                                                                                                    |
+| Seeed XIAO RP2040                | [Seeed Studio Product Page](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html)                                                        |
+| Seeed XIAO RP2040 (India)        | [Robu.in Product Page](https://robu.in/product/seeed-studio-xiao-rp2040-v1-0/)                                                               |
+| MPU6050 Sensor Module            | [Robu.in MPU6050 Module](https://robu.in/product/mpu-6050-gyro-sensor-2-accelerometer/)                                                      |
+| MPU6050 IC                       | [Robu.in MPU6050 IC](https://robu.in/product/mpu-6050-qfn-24-3-axis-gyro-accelerometer-ic/)                                                  |
+| 0.96" OLED Display (SSD1306 I²C) | [Robu.in OLED Display (Blue)](https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-blue/)                             |
+| 0.96" OLED Display (SSD1306 I²C) | [Robu.in OLED Display (White)](https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-white/)                           |
+| 0.96" OLED Display (SSD1306 I²C) | [Robu.in OLED Display (128×64 SSD1306)](https://robu.in/product/0-96-inch-128x64-ssd1306-iic-interface-4-pin-oled-module-blue-color-screen/) |
+| 4.7kΩ Resistor                   | [Robu.in Resistors Collection](https://robu.in/product-category/passive-components/resistors/)                                               |
+| 0.1µF Ceramic Capacitor          | [Robu.in Capacitors Collection](https://robu.in/product-category/passive-components/capacitors/)                                             |
+| 1µF Capacitor                    | [Robu.in Capacitors Collection](https://robu.in/product-category/passive-components/capacitors/)                                             |
+| PCB Manufacturing                | [LionCircuits](https://lioncircuits.com/)                                                                                                    |
 
 
 ## Component Summary
